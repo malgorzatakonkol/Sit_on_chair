@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+<header class="container naviagation">
+    <div class="container">
+        <div class="left">SIT <span class="greenFont">ON</span> CHAIR</div>
+        <div class="right">
+            <ol>
+                <li><a href="#">O FIRMIE</a>
+                    <ul id="ulList">
+                        <div class="arrow"></div>
+                        <li><a href="#">Aktualności</a></li>
+                        <li><a href="#">Nasz team</a></li>
+                        <li><a href="#">Historia</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">GALERIA</a></li>
+                <li><a href="#">KONTAKT</a></li>
+            </ol>
+        </div>
+    </div>
+</header>
+<section class="container carousel">
+    <div class="arrows prev" id="prevButton"></div>
+    <ul class="slider">
+        <li><img src="images/black_chair.png" class="blackChair"></li>
+        <li><img src="images/orange_chair.png" class="blackChair"></li>
+        <li><img src="images/red_chair.png" class="blackChair"></li>
+    </ul>
+    <h2 class="carouselHeader">
+        <span class="upper">sit <span class="greenFont">on</span> our <span class="greenFont">chair</span></span>
+    </h2>
+    <div class="carouselText">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.<br>Suspendisse a pellentesque dui,
+        non felis.
+        Maecenas<br>malesuada elit lectus felis, malesuada ultricies. Curabitur et<br>ligula. Ut lolieste a, ulticies
+        porta urna.
+    </div>
+    <input id="addInput" type="submit" value="Zobacz więcej" class="upper">
+    <div class="arrows next" id="nextButton"></div>
+</section>
+<section class="container photos">
+    <div class="photoElement clair"><img src="images/box1_img.jpg">
+        <h2 class="overlay">
+            Chair <span class="upper">clair</span>
+        </h2>
+    </div>
+    <div class="photoElement margarita"><img src="images/box2_img.jpg">
+        <h2 class="overlay">
+            Chair <span class="upper">margarita</span>
+        </h2>
+    </div>
+    <div class="photoElement notice">
+        <h2 class="headerPhotos">
+            Finds all inputs
+        </h2>
+        <p class="paragrapfPhotos">Finds all inputs that are not checked and highlights the next sibling span. Notice
+            there is no change when clicking the checkboxes since
+            no click events have been linked</p>
+        <p class="secondParagrapfPhotos">Notice there is no change when clicking the checkboxes since no click events
+            have been</p>
+    </div>
+</section>
+<section class="container containerOffers">
+    <h2 class="mainHeader">
+        <span class="upper">cennik</span>
+    </h2>
+    <div class="offerLabel">
+        <div class="circle">
+            <div class="blackCircle"></div>
+        </div>
+        <h2 class="headerCircle">
+            <span class="upper">basic plan</span>
+        </h2>
+        <div class="costCircle">
+            <p class="costNumber">8
+            <p class="bottomNumber">5</p>
+            <p class="costSup"><sup>99</sup></p> <span class="upper costString">pln/msc</span>
+        </div>
+        <table class="offerTable">
+            <tr>
+                <td>Zakup towaru + dowóz</td>
+            </tr>
+            <tr>
+                <td>Serwis</td>
+            </tr>
+        </table>
+        <div class="bottom"><span class="upper">Dołącz</span></div>
+    </div>
+    <div class="offerLabel1">
+        <div class="circle1">
+            <div class="blackCircle1"></div>
+        </div>
+        <h2 class="headerCircle1">
+            <span class="upper">standard plan</span>
+        </h2>
+        <div class="costCircle1">
+            <p class="costNumber1">95
+            <p class="costSup1"><sup>99</sup></p> <span class="upper costString1">pln/msc</span>
+        </div>
+        <table class="offerTable1">
+            <tr>
+                <td>Zakup towaru + dowóz</td>
+            </tr>
+            <tr>
+                <td>Serwis</td>
+            </tr>
+            <tr>
+                <td>Gwarancja 5 lat</td>
+            </tr>
+        </table>
+        <div class="otherBottom"><span class="upper">Dołącz</span></div>
+    </div>
+    <div class="offerLabel2">
+        <div class="circle">
+            <div class="blackCircle"></div>
+        </div>
+        <h2 class="headerCircle2">
+            <span class="upper">advance plan</span>
+        </h2>
+        <div class="costCircle">
+            <p class="costNumber2">211
+            <p class="costSup2"><sup>00</sup></p> <span class="upper costString2">pln/msc</span>
+        </div>
+        <table class="offerTable2">
+            <tr>
+                <td>Zakup towaru + dowóz</td>
+            </tr>
+            <tr>
+                <td>Serwis</td>
+            </tr>
+            <tr>
+                <td>Gwarancja 6 lat</td>
+            </tr>
+            <tr>
+                <td>Porady projektanta</td>
+            </tr>
+        </table>
+        <div class="bottom"><span class="upper">Dołącz</span></div>
+    </div>
+</section>
+<section class="container form">
+    <div class="container">
+        <h2 class="mainHeader"><span class="upper">kontakt</span></h2>
+        <form>
+            <div>
+                <label>
+                    <input id="nameInput" type="text" name="name" placeholder=" Imię">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input id="mailInput" type="email" name="email" placeholder=" email">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <textarea class="textareaInput" id="message" name="message" placeholder=" Wiadmość"></textarea>
+                </label>
+            </div>
+            <div class="checkboxText">Zgadzam się na przetwarzanie<br> danych osobowych</div>
+            <div><img src="images/form_ok.jpg" class="checkbox"></div>
+            <div>
+                <input id="submitInput" type="submit" value="Wyślij" class="upper">
+            </div>
+        </form>
+        <div class="redChair"><img src="images/red_chair.png" class="redChairImg"></div>
+    </div>
+</section>
+<footer class="container logo">
+    <div class="copyright">copyright 2014 | all rights reserved. - sit on chair</div>
+    <div class="smallLogo">
+        <img src="images/flickr.png">
+        <img src="images/vimeo.png">
+        <img src="images/pinterest.png">
+        <img src="images/twitter.png">
+    </div>
+    <div class="lastLogo upper">sit <span class="boldFont upper">on</span> chair</div>
+</footer>
+</body>
+<script src="scripts/script.js"></script>
+</html>
